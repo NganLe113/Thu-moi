@@ -355,6 +355,10 @@
 
       .toast.is-visible { opacity: 1; transform: translateY(0); }
 
+      @media (max-width: 600px) {
+        .guest-name { font-size: clamp(28px, calc(5.3vw + 10px), 45px); }
+      }
+
       @media (max-height: 820px) {
         .eyebrow { margin-top: 5%; }
         .guest-name { margin-top: 8px; padding-block: 3px; }
